@@ -2,11 +2,17 @@ package in.ineuron.pptAssignment02;
 
 import java.util.Arrays;
 
+/**
+ * 
+ * @author DEVAVRAT
+ *
+ */
+
 public class ArrayPiarSum {
 
 	public static void main(String[] args) {
 		int[] nums = { 1, 4, 3, 2 };
-		System.out.println(arrayPairSum(nums));
+		System.out.println("The maximum possible sum is " + arrayPairSum(nums));
 
 	}
 

@@ -1,5 +1,9 @@
 package in.ineuron.pptAssignment02;
-
+/**
+ * 
+ * @author DEVAVRAT
+ *
+ */
 public class MinScore {
 
 	public static void main(String[] args) {

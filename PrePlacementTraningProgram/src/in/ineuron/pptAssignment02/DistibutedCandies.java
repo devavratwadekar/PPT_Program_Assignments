@@ -1,7 +1,11 @@
 package in.ineuron.pptAssignment02;
 
 import java.util.Arrays;
-
+/**
+ * 
+ * @author DEVAVRAT
+ *
+ */
 public class DistibutedCandies {
 
 	public static void main(String[] args) {

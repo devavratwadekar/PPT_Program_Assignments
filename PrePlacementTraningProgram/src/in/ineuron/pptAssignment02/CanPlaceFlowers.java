@@ -1,6 +1,11 @@
 package in.ineuron.pptAssignment02;
 
 //TC=O(n) & SC=O(n)
+/**
+ * 
+ * @author DEVAVRAT
+ *
+ */
 public class CanPlaceFlowers {
 
 	public static void main(String[] args) {

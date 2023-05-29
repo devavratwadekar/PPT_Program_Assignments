@@ -4,6 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 //Longest Harmonious Subsequence
+/**
+ * 
+ * @author DEVAVRAT
+ *
+ */
 public class FindLHS {
 
 	public static void main(String[] args) {
