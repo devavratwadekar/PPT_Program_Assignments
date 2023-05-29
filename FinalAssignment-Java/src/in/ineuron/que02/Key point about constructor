@@ -1,0 +1,13 @@
+Key points about constructors:
+=================================
+1.  Constructors are special methods in a class that are used to initialize objects of that class.
+2.  The name of a constructor is the same as the name of the class.
+3.  Constructors do not have a return type, not even void.
+4.  If a class does not define any constructors, the compiler provides a default constructor with no arguments.
+5.  Constructors can be overloaded, meaning a class can have multiple constructors with different parameters.
+6.  To invoke a parent class constructor from a child class, you can use the super() keyword as the first statement in the child class constructor. This ensures that the parent class constructor is called before the child class constructor.
+7.  If you don't explicitly call a parent class constructor using super(), the compiler automatically inserts a call to the default constructor of the parent class.
+8.  If the parent class does not have a default constructor and you want to invoke a parameterized constructor, you need to explicitly call it using super() with the appropriate arguments.
+9.  Constructors can be used to perform initialization tasks, set default values, or acquire necessary resources for an object.
+10. Constructors can also call other constructors within the same class using the this() keyword, which allows constructor chaining.
+11. Constructors cannot be inherited or overridden. However, a child class constructor must invoke a parent class constructor either explicitly or implicitly.
